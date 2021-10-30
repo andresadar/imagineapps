@@ -36,3 +36,9 @@ Caracteristicas principales:
 4. Se habilita la edición y la eliminación de los `POST` realizados por el usuario.
 
 5. Al momento de editar un `POST` estado del mismo cambia a Edit para informar a los usuarios que el `POST` ha sido editado.
+
+
+
+| [**ImagineApps**](https://i.ibb.co/6WjP1z5/Screenshot-2021-10-30-05-33-53-480-com-example-imagine-apps.jpg)      | [**ImagineApps**](https://i.ibb.co/8jhQ5dq/Screenshot-2021-10-30-05-33-46-970-com-example-imagine-apps.jpg)     | 
+|------------|-------------| 
+|  <img src="https://i.ibb.co/6WjP1z5/Screenshot-2021-10-30-05-33-53-480-com-example-imagine-apps.jpg" width="250"> |  <img src="https://i.ibb.co/8jhQ5dq/Screenshot-2021-10-30-05-33-46-970-com-example-imagine-apps.jpg" width="250"> |
