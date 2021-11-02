@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 
 abstract class MyTheme {
   static final themeLight = ThemeData(
+    scaffoldBackgroundColor: Colors.grey[300],
     primarySwatch: Colors.grey,
     appBarTheme: const AppBarTheme(
       centerTitle: true,

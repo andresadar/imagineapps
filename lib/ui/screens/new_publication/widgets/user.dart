@@ -15,7 +15,7 @@ class UserInformationPost extends StatelessWidget {
         CircleAvatar(
           backgroundColor: MyColors.background,
           backgroundImage: const NetworkImage(
-              'https://www.colfecarga.com/taxi/assets/pages/media/profile/profile_user.jpg'),
+              'https://www.bnl.gov/today/body_pics/2017/06/stephanhruszkewycz-hr.jpg'),
           radius: 25,
         ),
         const _Chip(

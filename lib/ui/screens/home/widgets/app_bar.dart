@@ -21,7 +21,7 @@ class AppBarHome extends StatelessWidget {
             CircleAvatar(
               backgroundColor: MyColors.background,
               backgroundImage: const NetworkImage(
-                  'https://www.colfecarga.com/taxi/assets/pages/media/profile/profile_user.jpg'),
+                  'https://www.bnl.gov/today/body_pics/2017/06/stephanhruszkewycz-hr.jpg'),
             ),
             Expanded(
               child: InkWell(

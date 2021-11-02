@@ -29,6 +29,7 @@ class _NewPublicationPageState extends State<NewPublicationPage> {
         Provider.of<PostController>(context, listen: true);
     controller.textController.text = '';
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
           onPressed: () => Navigator.pop(context),

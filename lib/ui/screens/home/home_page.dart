@@ -36,28 +36,21 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final heightStatusBar = MediaQuery.of(context).padding.top;
-
     return Scaffold(
-      backgroundColor: Colors.grey[300],
       extendBody: true,
-      body: RefreshIndicator(
-        edgeOffset: kToolbarHeight + heightStatusBar,
-        onRefresh: () async {},
-        child: CustomScrollView(
-          controller: bottomController.scrollController,
-          physics: const BouncingScrollPhysics(),
-          slivers: const [
-            //AppBar
-            AppBarHome(),
+      body: CustomScrollView(
+        controller: bottomController.scrollController,
+        physics: const BouncingScrollPhysics(),
+        slivers: const [
+          //AppBar
+          AppBarHome(),
 
-            //Stories
-            StoriesHome(),
+          //Stories
+          StoriesHome(),
 
-            //Post
-            PostHome(),
-          ],
-        ),
+          //Post
+          PostHome(),
+        ],
       ),
       bottomNavigationBar: const BottomNavBarHome(),
     );
